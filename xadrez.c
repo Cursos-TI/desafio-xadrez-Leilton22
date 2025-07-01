@@ -33,6 +33,7 @@ int main() {
 
 
     return 0;
+    printf(" Novo commit\n");
 }
 
 //bispo 5 casas cima, direita, com estrutura while
