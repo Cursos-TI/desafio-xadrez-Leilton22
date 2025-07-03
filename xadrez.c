@@ -7,6 +7,7 @@
 int main() {
    int i = 1;
    int contador = 0;
+   int movimento = 1;
 
    for (int i = 0; i < 5; i++)
    {
@@ -29,13 +30,24 @@ int main() {
 
     } while (contador < 5);
 
+      while (movimento--)
+   {
+    for (int i = 0; i < 2; i++){
+        printf("Cavalo Cima\n");
+    }
+    printf("Cavalo Direita \n");
+   }
+   
+  printf("Qual Movimento voce deseja fazer agora? \n");
+
 
 
 
     return 0;
-    printf(" Novo commit\n");
+  
 }
 
 //bispo 5 casas cima, direita, com estrutura while
 //rainha 8 casas esquerda, com estrutura do while
 //torre 5 casa para frente,  com estrutura for
+//cavalo 2 casas pra cima e 1 casa pra direita
