@@ -42,6 +42,7 @@ int main(){
     MoverCavalo(1);
 
     return 0;
+    printf("Novo commit\n");
 }
 
 //Bispo 5 casas direita,cima
